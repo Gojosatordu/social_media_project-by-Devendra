@@ -1,0 +1,44 @@
+Setting Up and Running Project on a Local Server
+1. Install Local Server Environment
+Make sure you have a local server environment installed, like XAMPP, WAMP, or MAMP. For this example, I'll use XAMPP, but the steps are similar for other environments.
+
+Download XAMPP: Go to the XAMPP website and download the version suitable for your operating system.
+
+Install XAMPP: Follow the installation instructions and install XAMPP on your computer.
+
+2. Start Your Local Server
+Open XAMPP Control Panel: After installation, open the XAMPP Control Panel.
+
+Start Apache and MySQL: Click the "Start" buttons next to Apache and MySQL to start the web server and database server.
+
+3. Place Your Project Files in the Web Directory
+Locate XAMPP's Web Directory: The web directory is typically C:\xampp\htdocs on Windows.
+
+Create Project Folder: Create a new folder within htdocs, for example, C:\xampp\htdocs\social_media_project.
+
+Place Your Files: Copy all your PHP files, including config.php, and the style.css file into the social_media_project folder.
+
+4. Set Up the Database
+Open phpMyAdmin: Go to your web browser and type http://localhost/phpmyadmin to open phpMyAdmin.
+
+Create Database: In phpMyAdmin, create a new database named social_media.
+
+Import Tables: Use the SQL tab in phpMyAdmin to execute the SQL commands for creating the users, friend_requests, and posts tables.
+
+5. Access Your Project in the Browser
+Open Your Browser: Open your web browser and type http://localhost/social_media_project/.
+
+Test Pages: Navigate to your specific pages, for example:
+
+http://localhost/social_media_project/registration.php
+
+http://localhost/social_media_project/login.php
+
+http://localhost/social_media_project/send_request.php
+
+http://localhost/social_media_project/share_post.php
+
+
+
+
+This all steps are followed to complete the task 

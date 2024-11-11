@@ -1,0 +1,17 @@
+This project is made by Devendra Yadav of JK222 Batch, Roll no 18, Registration No 12201541 .
+
+Steps you can access the pages 
+
+Access Your Project in the Browser
+Open Your Browser: Open your web browser and type http://localhost/social_media_project/.
+
+Test Pages: Navigate to your specific pages, for example:
+
+http://localhost/social_media_project/registration.php
+
+http://localhost/social_media_project/login.php
+
+http://localhost/social_media_project/send_request.php
+
+http://localhost/social_media_project/share_post.php
+
